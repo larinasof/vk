@@ -1,13 +1,13 @@
 package ru.netology.domain;
 
 public class SeenInfo {
-    private float amountOfSeen;
+    private int amountOfSeen;
 
-    public float getAmountOfSeen() {
+    public int getAmountOfSeen() {
         return amountOfSeen;
     }
 
-    public void setAmountOfSeen(float amountOfSeen) {
+    public void setAmountOfSeen(int amountOfSeen) {
         this.amountOfSeen = amountOfSeen;
     }
 }
